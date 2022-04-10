@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font Mono:pixelsize=24:antialias=true:autohint=true";
+static char *font = "SauceCodePro Nerd Font Mono:pixelsize=26:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -211,6 +211,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,            	XK_d,     	kscrolldown,    {.i =  1} },
 	{ MODKEY|ControlMask,  	XK_u,   	kscrollup,      {.i = -1} },
 	{ MODKEY|ControlMask,   XK_d,   	kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
 };
 
 /*
